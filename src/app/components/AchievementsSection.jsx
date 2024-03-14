@@ -30,11 +30,17 @@ const achievementsList = [
   },
 ];
 
+console.log("Parsed value:", parseInt(achievementsList.value));
+
 const AchievementsSection = () => {
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
       <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
         {achievementsList.map((achievement, index) => {
+          const parsedValue = parseInt(achievement.value);
+          console.log("Achievement value:", achievement.value);
+          console.log("Parsed value:", parsedValue);
+
           return (
             <div
               key={index}
