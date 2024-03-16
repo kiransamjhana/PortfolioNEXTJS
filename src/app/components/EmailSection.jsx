@@ -52,11 +52,11 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          open. We can always discuss about the project or You can just Say Hi,
+          I&apos;ll try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/kiransamjhana">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="linkedin.com">
