@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { TypeAnimation } from "react-type-animation";
 
 const navLinks = [
   {
@@ -26,6 +27,23 @@ const Navbar = () => {
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+        {" "}
+        {/* 
+        
+  <p className="">"It's never to late to start"</p> */}
+        <TypeAnimation
+          sequence={[
+            "It is never to late to start",
+            1000,
+            "Coding is my hobby",
+            1000,
+            "I love bugs ",
+            1000,
+          ]}
+          wrapper="span"
+          speed={-2}
+          repeat={Infinity}
+        />
         <Link
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
