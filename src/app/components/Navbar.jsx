@@ -41,7 +41,7 @@ const Navbar = () => {
             1000,
           ]}
           wrapper="span"
-          speed={-2}
+          speed={1}
           repeat={Infinity}
         />
         <Link
