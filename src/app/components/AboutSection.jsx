@@ -2,7 +2,8 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-
+// just the commit
+//take this to git hub please
 const TAB_DATA = [
   {
     title: "Skills",
